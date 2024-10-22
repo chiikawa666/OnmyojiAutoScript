@@ -18,7 +18,7 @@ class PetsAssets:
 	# 其乐融融 
 	I_PET_HAPPY = RuleImage(roi_front=(853,614,67,70), roi_back=(853,614,67,70), threshold=0.8, method="Template matching", file="./tasks/Pets/pet/pet_pet_happy.png")
 	# 大餐 
-	I_PET_FEAST = RuleImage(roi_front=(0, 0, 1280, 720), roi_back=(0, 0, 1280, 720), threshold=0.8, method="Template matching", file="./tasks/Pets/pet/pet_pet_feast.png")
+	I_PET_FEAST = RuleImage(roi_front=(0, 0, 1280, 720), roi_back=(0, 1, 1280, 719), threshold=0.8, method="Template matching", file="./tasks/Pets/pet/pet_pet_feast.png")
 	# 玩耍 
 	I_PET_PLAY = RuleImage(roi_front=(788,500,75,75), roi_back=(788,500,75,75), threshold=0.8, method="Template matching", file="./tasks/Pets/pet/pet_pet_play.png")
 	# 投喂 
